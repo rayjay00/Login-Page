@@ -1,0 +1,1 @@
+$(".file-input").ready(function(){$(".second").click(function(){return $(".first").click(),!1})});

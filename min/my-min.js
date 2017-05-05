@@ -1,0 +1,1 @@
+function validate(){var t=document.getElementById("#test");return 0===t.files.length?(alert("Attachment Required"),t.focus(),!1):void 0}$(document).ready(function(){$("#first").click(function(){$("#test").click(),$("#test").change(function(){var t=$("input[type=file]").val().split("\\").pop();$("#first").html(t)})})});
